@@ -56,5 +56,8 @@ module.exports = {
   },
   devServer: {
     port: 8000,
-  },
+  },compress: true,
+    allowedHosts: [
+      '.onrender.com'
+  ]
 };
